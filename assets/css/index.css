@@ -1,0 +1,35 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    /* max-width: 1366px; */
+}
+.navbar{
+    margin: 0 80px;
+}
+.nav-item {
+    margin:0 28px;
+}
+/* index */
+.index-s1{
+    background-color: #F7FAF8;height: 600px;padding: 0 0;max-width: 100%;overflow: hidden;
+}
+
+@media (max-width: 990px) {
+    /* start nav */
+    .navbar{
+        margin: 0 auto;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: #F7FAF8;
+        margin: 5px;
+        border-radius: 8px;
+        padding: 10px 0;
+    }
+    .nav-item{
+        margin: 5px auto;
+    }
+    /* index */
+    .index-s1{
+        background-color: #00ff55;height: 600px;padding: 0 0;max-width: 100%;overflow: hidden;
+    }
+}
